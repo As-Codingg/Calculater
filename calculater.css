@@ -2,8 +2,8 @@ body {
     background-color: black;
 }
 #calc {
-    width: 200px;
-    height: 350px;
+    width: 371px;
+    height: 637px;
     position: relative;
     left: 30vw;
     border-radius: 10px;
@@ -12,11 +12,11 @@ body {
 }
 
 #display {
-    width: 90%;
-    height: 7%;
+    width: 94%;
+    height: 12%;
     border: 1px solid black;
     border-radius: 6px;
-    margin: 2px 7px;
+    margin: 13px 7px;
 }
 
 #button-container {
@@ -24,12 +24,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4px;
+    gap: 15px;
 }
 
 button {
-    height: 3.673em;
-    width: 4.300em;
+    height: 5.673em;
+    width: 7.3em;
 }
 /* new file */
 
