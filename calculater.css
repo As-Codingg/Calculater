@@ -1,19 +1,26 @@
 #calc {
     width: 200px;
-    background-color: rgb(116, 116, 230);
-    border-radius: 4px;
+    height: 350px;
+    border: 2px solid black;
 }
+
 #display {
-    width: 85%;
-    margin: 10px;
+    width: 90%;
+    height: 7%;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 2px 7px;
 }
+
 #button-container {
-    height: 150px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 4px;
 }
-#button-container button {
-    height: 30px;
-    width: 30px;
+
+button {
+    height: 49px;
+    width: 57px;
 }
